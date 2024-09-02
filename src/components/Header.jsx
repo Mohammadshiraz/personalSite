@@ -7,7 +7,7 @@ const Header = () => {
   const navHandler = () => {};
 
   return (
-    <div className="flex w-full h-20 px-4 text-white bg-gray-600  fixed justify-between items-center ">
+    <div className="flex w-screen h-20 p-4 text-white bg-gray-600 md:px-[112px]   justify-between items-center ">
       <img src={Logo}></img>
       <div className="hidden md:flex">
         <ul className="flex">
